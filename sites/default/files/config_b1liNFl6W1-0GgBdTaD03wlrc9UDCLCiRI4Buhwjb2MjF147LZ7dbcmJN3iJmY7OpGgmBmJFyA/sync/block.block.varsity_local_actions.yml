@@ -1,0 +1,20 @@
+uuid: 2a7dc581-d46d-42a7-81f8-576bc07ef193
+langcode: en
+status: true
+dependencies:
+  theme:
+    - varsity
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: varsity_local_actions
+theme: varsity
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

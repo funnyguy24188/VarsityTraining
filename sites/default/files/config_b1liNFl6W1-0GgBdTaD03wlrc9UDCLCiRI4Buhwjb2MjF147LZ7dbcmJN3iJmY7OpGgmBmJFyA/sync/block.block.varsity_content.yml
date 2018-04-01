@@ -1,0 +1,22 @@
+uuid: 4850198e-8cad-4fcc-8d00-55e839479a8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - varsity
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: varsity_content
+theme: varsity
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

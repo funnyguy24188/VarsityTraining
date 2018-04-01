@@ -1,0 +1,23 @@
+uuid: 22e94ebd-4e59-4c91-9814-8361f499bf4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url
+    - node.type.gallery
+  module:
+    - link
+id: node.gallery.field_url
+field_name: field_url
+entity_type: node
+bundle: gallery
+label: Url
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,23 @@
+uuid: 8f183c3c-0d18-4bab-a275-bd4e14509bdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.course
+  module:
+    - options
+id: node.course.field_place
+field_name: field_place
+entity_type: node
+bundle: course
+label: Place
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: AL
+default_value_callback: ''
+settings: {  }
+field_type: list_string

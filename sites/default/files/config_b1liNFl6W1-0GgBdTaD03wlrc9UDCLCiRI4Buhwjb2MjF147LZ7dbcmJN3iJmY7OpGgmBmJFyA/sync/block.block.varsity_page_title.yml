@@ -1,0 +1,20 @@
+uuid: 8037c5d0-4524-4dc2-bb27-7e01de1f4c6f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - varsity
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: varsity_page_title
+theme: varsity
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

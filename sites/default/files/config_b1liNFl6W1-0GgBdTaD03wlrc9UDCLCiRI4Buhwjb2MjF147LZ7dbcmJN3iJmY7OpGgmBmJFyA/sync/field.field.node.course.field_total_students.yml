@@ -1,0 +1,23 @@
+uuid: a28d4793-4ae8-42d1-8407-b8a2ae126f1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_students
+    - node.type.course
+  module:
+    - options
+id: node.course.field_total_students
+field_name: field_total_students
+entity_type: node
+bundle: course
+label: 'Total Students'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

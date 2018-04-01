@@ -7,17 +7,17 @@ description: 'Varsity theme'
 package: 'Bootstrap'
 
 regions:
+  top: 'Top bar'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
+  header: 'Header'
   highlighted: 'Highlighted'
-  help: 'Help'
   content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  help: 'Help'
+  bottom: 'Bottom bar'
   footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
 
 libraries-extend:
   bootstrap/framework:

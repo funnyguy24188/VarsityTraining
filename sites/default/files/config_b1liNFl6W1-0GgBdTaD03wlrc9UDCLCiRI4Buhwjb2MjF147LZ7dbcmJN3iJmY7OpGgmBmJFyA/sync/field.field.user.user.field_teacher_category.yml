@@ -1,0 +1,30 @@
+uuid: 8238b240-6b21-45f7-9f7c-20d767e0e917
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_teacher_category
+    - taxonomy.vocabulary.teacher_category
+  module:
+    - user
+id: user.user.field_teacher_category
+field_name: field_teacher_category
+entity_type: user
+bundle: user
+label: 'Teacher Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teacher_category: teacher_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

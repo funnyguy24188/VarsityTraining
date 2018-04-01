@@ -1,0 +1,26 @@
+uuid: 70bf5ed6-69aa-4bf2-b886-35170277b2f2
+langcode: en
+status: true
+dependencies: {  }
+id: subscriber
+label: Subscriber
+weight: 4
+is_admin: null
+permissions:
+  - 'create field_evaluate'
+  - 'create field_first_name'
+  - 'create field_last_name'
+  - 'create field_subscriber_type'
+  - 'create user_picture'
+  - 'edit own field_evaluate'
+  - 'edit own field_first_name'
+  - 'edit own field_last_name'
+  - 'edit own field_subscriber_type'
+  - 'edit own user_picture'
+  - 'view field_evaluate'
+  - 'view field_subscriber_type'
+  - 'view own field_evaluate'
+  - 'view own field_first_name'
+  - 'view own field_last_name'
+  - 'view own field_subscriber_type'
+  - 'view own user_picture'

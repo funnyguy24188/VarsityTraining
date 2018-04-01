@@ -1,0 +1,30 @@
+uuid: 94a798b6-2ec7-4959-95a9-b346e177ffc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.teacher_category.field_teacher_category
+    - taxonomy.vocabulary.teacher_category
+  module:
+    - text
+id: taxonomy_term.teacher_category.default
+targetEntityType: taxonomy_term
+bundle: teacher_category
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_teacher_category:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

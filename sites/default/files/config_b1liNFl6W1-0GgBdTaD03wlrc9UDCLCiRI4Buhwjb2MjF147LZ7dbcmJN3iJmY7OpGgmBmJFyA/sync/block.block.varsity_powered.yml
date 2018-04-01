@@ -1,0 +1,22 @@
+uuid: 96052e81-b9bc-42e6-9f44-e55a92e445ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - varsity
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: varsity_powered
+theme: varsity
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

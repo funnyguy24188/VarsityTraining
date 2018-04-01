@@ -47,23 +47,20 @@
 #}
 <div class="layout-container">
 
+  {{ page.top }}
+
+  {{ page.navigation }}
+
   <header role="banner">
     {{ page.header }}
   </header>
 
-  {{ page.primary_menu }}
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
   {{ page.highlighted }}
-
-  {{ page.help }}
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
     <div class="layout-content">
-      {{ page.asdsad }}
+      {{ page.content }}
     </div>{# /.layout-content #}
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">

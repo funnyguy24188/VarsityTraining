@@ -1,0 +1,38 @@
+uuid: b2128d3d-2503-4052-81d3-7ae61918dfdc
+langcode: en
+status: true
+dependencies: {  }
+id: teacher
+label: Teacher
+weight: 3
+is_admin: null
+permissions:
+  - 'create field_facebook'
+  - 'create field_first_name'
+  - 'create field_google_plus'
+  - 'create field_last_name'
+  - 'create field_linkedin'
+  - 'create field_teacher_category'
+  - 'create field_twitter'
+  - 'create user_picture'
+  - 'edit own field_facebook'
+  - 'edit own field_first_name'
+  - 'edit own field_google_plus'
+  - 'edit own field_last_name'
+  - 'edit own field_linkedin'
+  - 'edit own field_teacher_category'
+  - 'edit own field_twitter'
+  - 'edit own user_picture'
+  - 'view field_facebook'
+  - 'view field_google_plus'
+  - 'view field_linkedin'
+  - 'view field_teacher_category'
+  - 'view field_twitter'
+  - 'view own field_facebook'
+  - 'view own field_first_name'
+  - 'view own field_google_plus'
+  - 'view own field_last_name'
+  - 'view own field_linkedin'
+  - 'view own field_teacher_category'
+  - 'view own field_twitter'
+  - 'view own user_picture'

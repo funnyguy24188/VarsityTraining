@@ -13,10 +13,11 @@ class ComposerStaticInitDrupal8
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
+        '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
+        '5a12a5271c58108e0aa33355e6ac54ea' => __DIR__ . '/..' . '/drupal/console-core/src/functions.php',
         'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
     );
@@ -77,6 +78,7 @@ class ComposerStaticInitDrupal8
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Symfony\\Bridge\\PhpUnit\\' => 23,
+            'Stecman\\Component\\Symfony\\Console\\BashCompletion\\' => 49,
         ),
         'R' => 
         array (
@@ -118,6 +120,9 @@ class ComposerStaticInitDrupal8
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\Composer\\' => 21,
             'Drupal\\Core\\' => 12,
+            'Drupal\\Console\\Core\\' => 20,
+            'Drupal\\Console\\Composer\\Plugin\\' => 31,
+            'Drupal\\Console\\' => 15,
             'Drupal\\Component\\Uuid\\' => 22,
             'Drupal\\Component\\Utility\\' => 25,
             'Drupal\\Component\\Transliteration\\' => 33,
@@ -163,6 +168,7 @@ class ComposerStaticInitDrupal8
         'A' => 
         array (
             'Asm89\\Stack\\' => 12,
+            'Alchemy\\Zippy\\' => 14,
         ),
     );
 
@@ -319,6 +325,10 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/symfony/phpunit-bridge',
         ),
+        'Stecman\\Component\\Symfony\\Console\\BashCompletion\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stecman/symfony-console-completion/src',
+        ),
         'Robo\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
@@ -398,6 +408,18 @@ class ComposerStaticInitDrupal8
         'Drupal\\Core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core/lib/Drupal/Core',
+        ),
+        'Drupal\\Console\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/console-core/src',
+        ),
+        'Drupal\\Console\\Composer\\Plugin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/console-extend-plugin/src',
+        ),
+        'Drupal\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/console/src',
         ),
         'Drupal\\Component\\Uuid\\' => 
         array (
@@ -545,6 +567,10 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
         ),
+        'Alchemy\\Zippy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/alchemy/zippy/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -630,9 +656,17 @@ class ComposerStaticInitDrupal8
             array (
                 0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
             ),
+            'Dflydev\\PlaceholderResolver' => 
+            array (
+                0 => __DIR__ . '/..' . '/dflydev/placeholder-resolver/src',
+            ),
             'Dflydev\\DotAccessData' => 
             array (
                 0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
+            ),
+            'Dflydev\\DotAccessConfiguration' => 
+            array (
+                0 => __DIR__ . '/..' . '/dflydev/dot-access-configuration/src',
             ),
         ),
     );

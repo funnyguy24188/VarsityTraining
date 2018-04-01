@@ -1,0 +1,19 @@
+uuid: a8096b56-08a6-4ef8-9860-8b518578a607
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_time
+    - node.type.t
+id: node.t.field_course_time
+field_name: field_course_time
+entity_type: node
+bundle: t
+label: 'Course Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

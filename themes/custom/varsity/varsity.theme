@@ -1,8 +1,5 @@
 <?php
 
-/**
- * @file
- * Bootstrap sub-theme.
- *
- * Place your custom PHP code in this file.
- */
+function varsity_preprocess_region__navigation(&$variables) {
+    $variables['attributes']['class'] = 'container';
+ }

@@ -1,0 +1,21 @@
+uuid: 5be2b7e0-067e-4cbf-b038-d1038eed9753
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_evaluate
+  module:
+    - text
+    - user
+id: user.user.field_evaluate
+field_name: field_evaluate
+entity_type: user
+bundle: user
+label: Evaluate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

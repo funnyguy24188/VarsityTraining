@@ -1,0 +1,30 @@
+uuid: cc33c5c1-1973-41e7-902b-8ed9491d24b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_subscriber_type
+    - taxonomy.vocabulary.subscriber_type
+  module:
+    - user
+id: user.user.field_subscriber_type
+field_name: field_subscriber_type
+entity_type: user
+bundle: user
+label: 'Subscriber type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      subscriber_type: subscriber_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

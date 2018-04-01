@@ -1,0 +1,22 @@
+uuid: 5ec4d439-48b0-41f9-b87f-88718d0da03a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - varsity
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: varsity_help
+theme: varsity
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 929a76b7-fd45-4c5b-819c-edbcb1185ce2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - varsity
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: varsity_local_tasks
+theme: varsity
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

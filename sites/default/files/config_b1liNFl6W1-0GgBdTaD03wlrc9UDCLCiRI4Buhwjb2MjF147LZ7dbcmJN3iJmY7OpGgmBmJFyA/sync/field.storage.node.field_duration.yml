@@ -1,0 +1,39 @@
+uuid: 3849f7b6-c209-4d2e-9286-c33c524f52f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_duration
+field_name: field_duration
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: '2 Weeks'
+    -
+      value: '2'
+      label: '4 Weeks'
+    -
+      value: '3'
+      label: '2 Months'
+    -
+      value: '4'
+      label: '4 Months'
+    -
+      value: '5'
+      label: '6 Months'
+    -
+      value: '6'
+      label: '1 Year'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

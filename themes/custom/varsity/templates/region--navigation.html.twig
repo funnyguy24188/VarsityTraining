@@ -14,8 +14,12 @@
  * @ingroup themeable
  */
 #}
-{% if content %}
-  <div{{ attributes }}>
-    {{ content }}
-  </div>
-{% endif %}
+<div id="mu-menu">
+  <nav class="navbar navbar-default" role="navigation">
+    {% if content %}
+      <div{{ attributes }}>
+        {{ content }}
+      </div>
+    {% endif %}
+  </nav>
+</div>

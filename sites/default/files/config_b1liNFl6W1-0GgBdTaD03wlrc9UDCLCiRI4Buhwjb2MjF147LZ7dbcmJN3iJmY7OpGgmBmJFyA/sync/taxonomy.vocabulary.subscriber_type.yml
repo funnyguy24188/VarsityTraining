@@ -1,0 +1,9 @@
+uuid: f66d4c0d-897a-4b48-aeea-d0a422a3ee3d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Subscriber Type'
+vid: subscriber_type
+description: 'Classified for Parent or student '
+hierarchy: 0
+weight: 0

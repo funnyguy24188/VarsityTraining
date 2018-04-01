@@ -1,0 +1,26 @@
+uuid: 22b97e01-e95f-4995-a5c3-03a6bb695f14
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view field_evaluate'
+  - 'view field_facebook'
+  - 'view field_first_name'
+  - 'view field_google_plus'
+  - 'view field_last_name'
+  - 'view field_linkedin'
+  - 'view field_subscriber_type'
+  - 'view field_teacher_category'
+  - 'view field_twitter'
+  - 'view user_picture'

@@ -1,0 +1,9 @@
+uuid: ce6535a5-9289-4a5a-8c06-e4ad5681a8f1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Course Category'
+vid: course_category
+description: ''
+hierarchy: 0
+weight: 0

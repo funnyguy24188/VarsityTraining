@@ -1,0 +1,8 @@
+uuid: 94c69b8a-50dd-4af0-9f99-b17ba1c9092c
+langcode: en
+status: true
+dependencies: {  }
+id: main-menu
+label: 'Main menu'
+description: 'Varsity main menu'
+locked: false

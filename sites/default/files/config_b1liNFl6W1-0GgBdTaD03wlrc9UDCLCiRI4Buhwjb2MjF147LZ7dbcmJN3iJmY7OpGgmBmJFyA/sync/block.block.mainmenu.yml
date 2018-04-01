@@ -1,0 +1,24 @@
+uuid: e3d1c819-9ddd-48bb-99b0-f1e10e557e43
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-menu
+  module:
+    - system
+  theme:
+    - varsity
+id: mainmenu
+theme: varsity
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main-menu'
+settings:
+  id: 'system_menu_block:main-menu'
+  label: 'Main menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
