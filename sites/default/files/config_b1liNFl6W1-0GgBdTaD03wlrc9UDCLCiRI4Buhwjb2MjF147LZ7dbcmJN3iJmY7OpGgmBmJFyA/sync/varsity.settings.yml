@@ -3,20 +3,32 @@ _core:
   default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: 'public://favicon.ico'
   url: 'http://drupal8.dev/themes/custom/varsity/favicon.ico'
-  use_default: true
+  use_default: false
 schemas:
   bootstrap: 8000
   varsity: 8000
+logo:
+  path: 'public://logo.png'
+  url: ''
+  use_default: false
+breadcrumb_home: 1
+region_wells:
+  top: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  help: ''
+  bottom: ''
+  footer: ''
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
-logo:
-  path: 'public://varsity_0.jpg'
-  url: ''
-  use_default: false
-table_responsive: '-1'
 table: ''

@@ -1,0 +1,25 @@
+uuid: 5e709250-7ab7-42df-8438-c5d567ab180b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6b7cda69-6969-45df-b297-b2dbe9e73059'
+  module:
+    - block_content
+  theme:
+    - varsity
+id: topbarcontent
+theme: varsity
+region: top
+weight: 0
+provider: null
+plugin: 'block_content:6b7cda69-6969-45df-b297-b2dbe9e73059'
+settings:
+  id: 'block_content:6b7cda69-6969-45df-b297-b2dbe9e73059'
+  label: 'Topbar content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
