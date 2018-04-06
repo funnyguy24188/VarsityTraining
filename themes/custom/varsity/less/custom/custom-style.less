@@ -94,7 +94,8 @@ img {
   transition: all 0.5s;
 }
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
-  color: #fff;
+  background-color: #01bafd;
+  border-color: #01bafd;
 }
 
 .mu-post-btn {
@@ -401,7 +402,12 @@ img {
 #mu-slider .slick-next {
   height: 60px;
   width: 60px;
+  background-color: #01bafd;
 }
+#mu-slider .slick-arrow {
+  border-radius: 0;
+}
+
 #mu-slider .slick-prev:before,
 #mu-slider .slick-next:before {
   color: #fff;
@@ -558,7 +564,7 @@ img {
  ABOUT US COUNTER SECTION
 ====================*/
 #mu-abtus-counter {
-  background-image: url("../img/counter-bg.jpg");
+  background-image: url("../images/counter-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline;
@@ -2638,4 +2644,43 @@ img {
   #mu-error .mu-error-area h2 {
     font-size: 100px;
   }
+}
+
+
+.view-main-slider .view-content {
+    overflow: hidden;
+    border:1px solid transparent;
+
+    .slide__caption {
+      color: #fff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 20%;
+      padding: 0 15%;
+      width: 100%;
+      text-align: center;
+      height: 100%;
+      span {
+        background-color: #01bafd;
+      }
+      h4 {
+        letter-spacing: 1px;
+        margin-bottom: 0;
+      }
+      h2 {
+        font-size: 50px;
+        line-height: 80px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+      }
+    }
+}
+
+.contextual-region {
+  position: inherit;
 }

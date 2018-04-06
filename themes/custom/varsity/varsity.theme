@@ -3,3 +3,18 @@
 function varsity_preprocess_region__navigation(&$variables) {
     $variables['attributes']['class'] = 'container';
  }
+
+function varsity_preprocess_region__footer(&$variables) {
+    $variables['attributes']['id'] = 'mu-footer';
+}
+
+function varsity_views_pre_render(&$view) {
+    if($view->id() === 'our_teacher') {
+        foreach($view->result as &$value){
+            $firstName = $value->_entity->get('field_first_name')->value;
+            $lastName = $value->_entity->get('field_last_name')->value;
+            $value->_entity->set('field_first_name', $firstName . ' ' . $lastName);
+        }
+    }
+
+}

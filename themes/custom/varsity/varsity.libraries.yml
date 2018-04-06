@@ -1,6 +1,7 @@
 framework:
   css:
     theme:
+      css/default-theme.css: {}
       css/style.css: {}
       'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css': {type: external}
 
@@ -17,3 +18,4 @@ framework:
     bootstrap/js/scrollspy.js: {}
     bootstrap/js/tab.js: {}
     bootstrap/js/transition.js: {}
+    js/custom.js: {}

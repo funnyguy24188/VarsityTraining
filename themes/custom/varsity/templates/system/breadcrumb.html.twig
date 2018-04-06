@@ -1,0 +1,40 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ *
+ * @ingroup templates
+ */
+#}
+
+{% if breadcrumb %}
+  <section id="mu-page-breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-page-breadcrumb-area">
+            <ol class="breadcrumb">
+              {% set lasted = breadcrumb|last %}
+              {% if not lasted.url %}
+                <h2>{{ lasted.text }}</h2>
+              {% endif %}
+              {% for item in breadcrumb %}
+                <li {{ item.attributes }}>
+
+                  {% if item.url %}
+                    <a href="{{ item.url }}">{{ item.text }}</a>
+                  {% else %}
+                    {{ item.text }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}

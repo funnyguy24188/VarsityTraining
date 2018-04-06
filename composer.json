@@ -8,10 +8,9 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drush/drush": "^9.2",
         "drupal/pathauto": "^1.1",
-        "drupal/console": "~1.0"
-    },
-    "replace": {
+        "drupal/console": "~1.0",
         "drupal/core": "^8.5"
+
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
